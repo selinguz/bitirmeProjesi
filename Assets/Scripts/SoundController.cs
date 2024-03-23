@@ -8,13 +8,11 @@ public class SoundController : MonoBehaviour
 
     void Start()
     {
-        // AudioSource bileşenini al
         audioSource = GetComponent<AudioSource>();
     }
 
     public void PlaySound()
     {
-        // Ses dosyasını çal
         if (audioSource != null)
         {
             audioSource.Play();

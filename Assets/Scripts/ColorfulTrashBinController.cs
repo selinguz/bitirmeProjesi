@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class ColorfulTrashBinController : MonoBehaviour
 {
-    //public int copKutusuID;
-
-    //public int puanDegeri = 10;
-    //public int skor = 0;
-    //public Text scoreText;
     private ScoreController scoreController;
     private int toplamCopKutulari = 0;
     private int toplanacakCopKutusu = 12;
